@@ -1,0 +1,29 @@
+# ENTORNOS VIRTUALES
+backend/myvenv/
+venv/
+
+# CACHÉ DE PYTHON
+__pycache__/
+*.pyc
+
+# BASES DE DATOS LOCALES
+db.sqlite3
+*.db
+
+# MIGRATIONS (MANTENER SOLO ARCHIVOS .py, IGNORA ARCHIVOS QUE NO IMPORTAN)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+backend/.env
+
+# NODE MODULES
+frontend/node_modules/
+
+# FRONTEND BUILD
+frontend/dist/
+
+# EDITOR SETTINGS
+.vscode/
+.idea/
+
