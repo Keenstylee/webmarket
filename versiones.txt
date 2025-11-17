@@ -1,0 +1,26 @@
+SuperUser o Admin
+user: user
+emailadress: admin@example.com
+password: user
+
+Versiónes
+
+React: react-dom@19.2.0 react@19.2.0
+Vite: VITE v7.2.2
+Python: 3.11.9
+Django: django-5.2.8-py3
+Djangorestframework: 3.16.1-py3
+NodeJs: node-v24.11.1
+axios: ^1.13.2
+CORS: django-cors-headers-4.9.0
+tailwind: 3.4.18                                    
+postcss: 8.5.6
+autoprefixer: 10.4.22
+
+Inicializar
+backend: python manage.py runserver
+frontend: npm run dev
+
+
+opcional Biblioteca Pillow - pip install Pillow
+opcional NVM(Node versión Manager)
